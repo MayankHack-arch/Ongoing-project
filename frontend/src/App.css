@@ -1,0 +1,117 @@
+/* App.css */
+
+/* Common styles for headings */
+.main-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: green; /* Light color for better readability on dark background */
+}
+
+/* Login and Signup container */
+.login-page, .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Clean white background for login/signup */
+}
+
+/* Dark theme for Email Verification container */
+.verification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color: #263238; /* Dark background for verification */
+}
+
+/* Heading styles for verification */
+.verification-container h2 {
+    color: #ffffff; /* Light color for headings */
+    margin-bottom: 1rem;
+}
+
+/* Input styles */
+.input-credential {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc; /* Soft border */
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-credential:focus {
+    border-color: #4A90E2; /* Accent color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Button styles */
+.submit-signup {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4A90E2; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-signup:hover {
+    background-color: #357ABD; /* Darker shade on hover */
+    transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Link styles */
+.link-p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.link-p a {
+    color: #4A90E2; /* Subtle link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-p a:hover {
+    text-decoration: underline;
+    color: #357ABD; /* Slightly darker on hover */
+}
+
+/* Verification paragraph styles */
+.verification-container p {
+    color: #b0bec5; /* Softer gray color for readability on dark background */
+    text-align: center;
+    margin: 0.5rem 0; /* Margin between paragraphs */
+}
+
+/* Link styles within verification container */
+.verification-container .link-p {
+    color: #90a4ae; /* Lighter gray for links */
+    margin-top: 1rem;
+}
+
+.verification-container .link-p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.verification-container .link-p a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Light color for hover on dark background */
+}
